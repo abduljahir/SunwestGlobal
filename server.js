@@ -54,7 +54,7 @@ app.post('/emails', async (req, res) => {
     }
 
     const mailOptions = {
-        from: 'abdulrahman3863@gmail.com',
+        from: 'sunwestglobalgeneral@gmail.com',
         to: email,
         subject: `Welcome, ${name}!`,
         text: `Hi ${name},\n\nThank you for subscribing to our website!\n\nBest regards,\nYour Website Team`
